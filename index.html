@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scan to View the Menu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fffdf8, #f5eee4);
+      font-family: 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      color: #333;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 2rem;
+    }
+    img {
+      border: 8px solid #edddbe;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      width: 220px;
+      height: 220px;
+    }
+    p {
+      margin-top: 1.5rem;
+      font-size: 1em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Scan to View the Dinner Menu</h1>
+  <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://lennyliu95.github.io/menu/&size=220x220" alt="QR Code to Menu" />
+  <p>Open with your phone camera</p>
+  <br>
+
+  <p>&copy; Lenny Kitchen</p>
+</body>
+</html>
